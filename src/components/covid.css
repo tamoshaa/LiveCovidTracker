@@ -1,0 +1,63 @@
+body {
+  margin-top: 10px;
+  background-image: linear-gradient(black, purple);
+  padding: 10px;
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+p {
+  color: rgb(14, 5, 5);
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__main {
+  height: 200px;
+  width: 400px;
+  margin: 25px;
+  margin-top: 20px;
+  align-items: center;
+  background-color: rgb(222, 161, 250);
+}
+p:hover {
+  background-color: lavender;
+}
+
+.class__inner {
+  margin-top: 20px;
+}
+
+.card__name {
+  background-color: cornflowerblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.card__name span {
+  font-size: 15px;
+}
+
+.card__total {
+  font-size: 40px;
+  color: darkblue;
+  font-weight: bold;
+  text-align: center;
+}
